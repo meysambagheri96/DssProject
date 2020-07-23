@@ -10,7 +10,7 @@ def to_remove():
     return rem
 
 
-d = pd.read_csv('mat.csv', header=None).to_numpy()
+d = pd.read_csv('matrix.csv', header=None).to_numpy()
 
 m = d + np.identity(len(d))
 print('\nM:\n', m)

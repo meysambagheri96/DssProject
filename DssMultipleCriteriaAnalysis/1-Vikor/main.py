@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-a = pd.read_csv('mat.csv', header=None).to_numpy()
-w = pd.read_csv('w.csv', header=None).to_numpy()
+a = pd.read_csv('matrix.csv', header=None).to_numpy()
+w = pd.read_csv('weights.csv', header=None).to_numpy()
 
 a2 = a**2
 a2 = np.sqrt(a2.sum(axis=0))
